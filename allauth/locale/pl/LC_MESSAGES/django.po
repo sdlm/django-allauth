@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2014-08-12 00:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,306 +14,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr ""
-"Nazwa użytkownika może zawierać tylko litery, cyfry oraz znaki @/./+/-/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "Nie możesz użyć tej nazwy użytkownika. Proszę wybierz inną."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Hasło musi składać się minimalnie z {0} znaków."
-
-#: account/apps.py:8
-#, fuzzy
-msgid "Accounts"
-msgstr "Konto"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Hasło"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Pamiętaj mnie"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Konto jest obecnie nieaktywne."
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Adres e-mail i/lub hasło, które podałeś, są niepoprawne."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Użytkownik i/lub hasło które podałeś są niepoprawne."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Login i/lub hasło, które podałeś, są niepoprawne."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "Adres e-mail"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-mail"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Nazwa użytkownika"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Nazwa użytkownika lub e-mail"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Login"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-mail (opcjonalnie)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "W systemie jest już zarejestrowany użytkownik o tym adresie e-mail."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Hasło (ponownie)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Musisz wpisać za każdym razem to samo hasło"
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "Ten adres e-mail jest już powiązany z tym kontem."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "Ten adres e-mail jest już powiązany z innym kontem."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Obecne hasło"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Nowe hasło"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Nowe hasło (ponownie)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Proszę wpisz swoje obecne hasło"
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Adres e-mail nie jest powiązany z żadnym kontem użytkownika"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "użytkownik"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "adres e-mail"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "zweryfikowany"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "podstawowy"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "adres email"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "adresy e-mail"
-
-#: account/models.py:89
-msgid "created"
-msgstr "utworzono"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "wysłano"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "klucz"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "powierdzenie adresu email"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "potwierdzenia adresów email"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Twoje konto nie posiada hasła."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Twoje konto nie ma zweryfikowanego adresu e-mail"
-
-#: socialaccount/apps.py:8
-#, fuzzy
-msgid "Social Accounts"
-msgstr "Konta społecznościowe"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Istnieje już konto dla tego adresu e-mail. Zaloguj się wpierw na to konto, a "
-"następnie połącz swoje konto %s."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr "dostawca usług"
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "nazwa"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr "klient ID"
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr "ID aplikacji lub klucz odbiorcy"
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr "Klucz prywatny"
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr "Klucz prywatny API/klienta/dbiorcy"
-
-#: socialaccount/models.py:62
-#, fuzzy
-msgid "Key"
-msgstr "klucz"
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr "Aplikacja społecznościowa"
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr "Aplikacje społecznościowe"
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr "uid"
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr "Data ostatniego logowania"
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr "Data przyłączenia"
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr "Dodatkowe dane"
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr "Konto społecznościowe"
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr "Konta społecznościowe"
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr "\"oauth_token\" (OAuth1) lub access token (OAuth2)"
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr "token secret"
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr "\"oauth_token_secret\" (OAuth1) lub refresh token (OAuth2)"
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr "wygasa"
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr "Token aplikacji społecznościowej"
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr "Tokeny aplikacji społecznościowych"
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Błędna odpowiedź podczas pobierania tokena z \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Błędna odpowiedź podczas pobierania tokena autoryzacji z \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Brak tokena zapisanego dla \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Brak zapisanego tokena autoryzacji \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Brak dostępu do prywatnych zasobów na \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -482,7 +182,7 @@ msgstr ""
 "Łącze z adresem do zresetowania hasła wygasło lub jest niepoprawne. Musisz "
 "<a href=\"%(email_url)s\">wygenerować nowe łącze dla Twojego adresu. </a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Zaloguj"
@@ -517,7 +217,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Zapomniałeś hasła?"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Wyloguj się"
@@ -645,7 +345,7 @@ msgstr "Ustaw hasło"
 msgid "Signup"
 msgstr "Zarejestruj się"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Zarejestuj się"
@@ -794,6 +494,216 @@ msgid ""
 msgstr ""
 "Masz zamiar użyć konta %(provider_name)s do zalogowania się w \n"
 "%(site_name)s. Jako ostatni krok, proszę wypełnij formularz:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr ""
+#~ "Nazwa użytkownika może zawierać tylko litery, cyfry oraz znaki @/./+/-/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr "Nie możesz użyć tej nazwy użytkownika. Proszę wybierz inną."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Hasło musi składać się minimalnie z {0} znaków."
+
+#, fuzzy
+#~ msgid "Accounts"
+#~ msgstr "Konto"
+
+#~ msgid "Password"
+#~ msgstr "Hasło"
+
+#~ msgid "Remember Me"
+#~ msgstr "Pamiętaj mnie"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Konto jest obecnie nieaktywne."
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Adres e-mail i/lub hasło, które podałeś, są niepoprawne."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Użytkownik i/lub hasło które podałeś są niepoprawne."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Login i/lub hasło, które podałeś, są niepoprawne."
+
+#~ msgid "E-mail address"
+#~ msgstr "Adres e-mail"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Username"
+#~ msgstr "Nazwa użytkownika"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Nazwa użytkownika lub e-mail"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-mail (opcjonalnie)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "W systemie jest już zarejestrowany użytkownik o tym adresie e-mail."
+
+#~ msgid "Password (again)"
+#~ msgstr "Hasło (ponownie)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Musisz wpisać za każdym razem to samo hasło"
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Ten adres e-mail jest już powiązany z tym kontem."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Ten adres e-mail jest już powiązany z innym kontem."
+
+#~ msgid "Current Password"
+#~ msgstr "Obecne hasło"
+
+#~ msgid "New Password"
+#~ msgstr "Nowe hasło"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Nowe hasło (ponownie)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Proszę wpisz swoje obecne hasło"
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "Adres e-mail nie jest powiązany z żadnym kontem użytkownika"
+
+#~ msgid "user"
+#~ msgstr "użytkownik"
+
+#~ msgid "e-mail address"
+#~ msgstr "adres e-mail"
+
+#~ msgid "verified"
+#~ msgstr "zweryfikowany"
+
+#~ msgid "primary"
+#~ msgstr "podstawowy"
+
+#~ msgid "email address"
+#~ msgstr "adres email"
+
+#~ msgid "email addresses"
+#~ msgstr "adresy e-mail"
+
+#~ msgid "created"
+#~ msgstr "utworzono"
+
+#~ msgid "sent"
+#~ msgstr "wysłano"
+
+#~ msgid "key"
+#~ msgstr "klucz"
+
+#~ msgid "email confirmation"
+#~ msgstr "powierdzenie adresu email"
+
+#~ msgid "email confirmations"
+#~ msgstr "potwierdzenia adresów email"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Twoje konto nie posiada hasła."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Twoje konto nie ma zweryfikowanego adresu e-mail"
+
+#, fuzzy
+#~ msgid "Social Accounts"
+#~ msgstr "Konta społecznościowe"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Istnieje już konto dla tego adresu e-mail. Zaloguj się wpierw na to "
+#~ "konto, a następnie połącz swoje konto %s."
+
+#~ msgid "provider"
+#~ msgstr "dostawca usług"
+
+#~ msgid "name"
+#~ msgstr "nazwa"
+
+#~ msgid "client id"
+#~ msgstr "klient ID"
+
+#~ msgid "App ID, or consumer key"
+#~ msgstr "ID aplikacji lub klucz odbiorcy"
+
+#~ msgid "secret key"
+#~ msgstr "Klucz prywatny"
+
+#~ msgid "API secret, client secret, or consumer secret"
+#~ msgstr "Klucz prywatny API/klienta/dbiorcy"
+
+#, fuzzy
+#~ msgid "Key"
+#~ msgstr "klucz"
+
+#~ msgid "social application"
+#~ msgstr "Aplikacja społecznościowa"
+
+#~ msgid "social applications"
+#~ msgstr "Aplikacje społecznościowe"
+
+#~ msgid "uid"
+#~ msgstr "uid"
+
+#~ msgid "last login"
+#~ msgstr "Data ostatniego logowania"
+
+#~ msgid "date joined"
+#~ msgstr "Data przyłączenia"
+
+#~ msgid "extra data"
+#~ msgstr "Dodatkowe dane"
+
+#~ msgid "social account"
+#~ msgstr "Konto społecznościowe"
+
+#~ msgid "social accounts"
+#~ msgstr "Konta społecznościowe"
+
+#~ msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
+#~ msgstr "\"oauth_token\" (OAuth1) lub access token (OAuth2)"
+
+#~ msgid "token secret"
+#~ msgstr "token secret"
+
+#~ msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
+#~ msgstr "\"oauth_token_secret\" (OAuth1) lub refresh token (OAuth2)"
+
+#~ msgid "expires at"
+#~ msgstr "wygasa"
+
+#~ msgid "social application token"
+#~ msgstr "Token aplikacji społecznościowej"
+
+#~ msgid "social application tokens"
+#~ msgstr "Tokeny aplikacji społecznościowych"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Błędna odpowiedź podczas pobierania tokena z \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Błędna odpowiedź podczas pobierania tokena autoryzacji z \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Brak tokena zapisanego dla \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Brak zapisanego tokena autoryzacji \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Brak dostępu do prywatnych zasobów na \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "Nazwa użytkownika jest już w użyciu. Proszę wybierz inną."

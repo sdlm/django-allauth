@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,304 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "Lietotājvārds var saturēt tikai burtus, ciparus un @/./+/-/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr ""
-"Lietotājvārds nevar tikt izmantots. Lūdzu izvēlietis citu lietotājvārdu."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-"Pārāk daudz neveiksmīgi pieslēgšanās mēģinājumi. Mēģiniet vēlreiz vēlāk."
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Parolei jābūt vismaz {0} simbolus garai."
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "Konti"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Parole"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Atcerēties mani"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Šis konts šobrīd ir neaktīvs."
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Nepareizs e-pasts un/vai parole."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Nepareizs lietotāja vārds un/vai parole."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Nepareiza pieteikšanās informācija un/vai parole."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "E-pasta adrese"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-pasts"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Lietotājvārds"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Lietotājvārds vai e-pasts"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Ieiet"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-pasts (izvēles)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "Lietotājs ar šādu e-pasta adresi jau ir reģistrēts."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Parole (vēlreiz)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Katru reizi jums ir jāievada tā pati parole."
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "Šī e-pasta adrese jau ir piesaistīta šim kontam."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "Šī e-pasta adrese jau ir piesaistīta citam kontam."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Šobrīdējā parole"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Jaunā parole"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Jaunā parole (vēlreiz)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Lūdzu ievadiet jūsu šobrīdējo paroli."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "E-pasta adrese nav piesaistīta nevienam lietotāja kontam"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr "Paroles atjaunošanas marķieris bija nederīgs."
-
-#: account/models.py:26
-msgid "user"
-msgstr "lietotājs"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "e-pasta adrese"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "apstiprināts"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "primārā"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "e-pasta adrese"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "e-pasta adreses"
-
-#: account/models.py:89
-msgid "created"
-msgstr "izveidots"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "nosūtīts"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "atslēga"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "e-pasta apstiprinājums"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "e-pasta apstiprinājumi"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Jūsu kontam nav uzstādīta parole."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Jūsu kontam nav apstiprinātas e-pasta adreses."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "Sociālie konti"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Jau eksistē konts ar šo e-pasta adresi. Lūdzu sākumā ieejiet tajā kontā, tad "
-"pievienojiet %s kontu."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr "sniedzējs"
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "vārds"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr "klienta id"
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr "App ID, vai consumer key"
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr "secret key"
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr "API secret, client secret, vai consumer secret"
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr "Key"
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr "sociālā aplikācija"
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr "sociālās aplikācijas"
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr "uid"
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr "pēdējā pieslēgšanās"
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr "reģistrācijas datums"
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr "papildus informācija"
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr "sociālais konts"
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr "sociālie konti"
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr "token"
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr "\"oauth_token\" (OAuth1) vai piekļūt marķierim (OAuth2)"
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr "token secret"
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr "\"oauth_token_secret\" (OAuth1) vai atjaunot marķieri (OAuth2)"
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr "beidzas"
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr "sociālās aplikācijas marķieris"
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr "sociālās aplikācijas marķieri"
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Nederīga atbilde iegūstot pieprasījuma marķieri no \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Nederīga atbilde iegūstot pieejas marķieri no \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Netika saglabāts pieprasījuma marķieris priekš \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Netika saglabāts pieejas marķieris priekš  \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Nav pieejas privātam resursam \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -482,7 +184,7 @@ msgstr ""
 "nederīgs. Lūdzu <a href=\"%(email_url)s\">pieprasiet jaunu e-pasta "
 "apstiprināšanas linku</a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Ieiet"
@@ -517,7 +219,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Aizmirsāt paroli?"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Iziet"
@@ -645,7 +347,7 @@ msgstr "Uzstādīt paroli"
 msgid "Signup"
 msgstr "Reģistrēties"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Reģistrēties"
@@ -791,6 +493,223 @@ msgid ""
 msgstr ""
 "Jūs izmantosiet savu %(provider_name)s kontu, lai ieietu\n"
 "%(site_name)s. Kā pēdējo soli, lūdzu aizpildiet sekojošo formu:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "Lietotājvārds var saturēt tikai burtus, ciparus un @/./+/-/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr ""
+#~ "Lietotājvārds nevar tikt izmantots. Lūdzu izvēlietis citu lietotājvārdu."
+
+#~ msgid "Too many failed login attempts. Try again later."
+#~ msgstr ""
+#~ "Pārāk daudz neveiksmīgi pieslēgšanās mēģinājumi. Mēģiniet vēlreiz vēlāk."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Parolei jābūt vismaz {0} simbolus garai."
+
+#~ msgid "Accounts"
+#~ msgstr "Konti"
+
+#~ msgid "Password"
+#~ msgstr "Parole"
+
+#~ msgid "Remember Me"
+#~ msgstr "Atcerēties mani"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Šis konts šobrīd ir neaktīvs."
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Nepareizs e-pasts un/vai parole."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Nepareizs lietotāja vārds un/vai parole."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Nepareiza pieteikšanās informācija un/vai parole."
+
+#~ msgid "E-mail address"
+#~ msgstr "E-pasta adrese"
+
+#~ msgid "E-mail"
+#~ msgstr "E-pasts"
+
+#~ msgid "Username"
+#~ msgstr "Lietotājvārds"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Lietotājvārds vai e-pasts"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Ieiet"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-pasts (izvēles)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Lietotājs ar šādu e-pasta adresi jau ir reģistrēts."
+
+#~ msgid "Password (again)"
+#~ msgstr "Parole (vēlreiz)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Katru reizi jums ir jāievada tā pati parole."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Šī e-pasta adrese jau ir piesaistīta šim kontam."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Šī e-pasta adrese jau ir piesaistīta citam kontam."
+
+#~ msgid "Current Password"
+#~ msgstr "Šobrīdējā parole"
+
+#~ msgid "New Password"
+#~ msgstr "Jaunā parole"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Jaunā parole (vēlreiz)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Lūdzu ievadiet jūsu šobrīdējo paroli."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "E-pasta adrese nav piesaistīta nevienam lietotāja kontam"
+
+#~ msgid "The password reset token was invalid."
+#~ msgstr "Paroles atjaunošanas marķieris bija nederīgs."
+
+#~ msgid "user"
+#~ msgstr "lietotājs"
+
+#~ msgid "e-mail address"
+#~ msgstr "e-pasta adrese"
+
+#~ msgid "verified"
+#~ msgstr "apstiprināts"
+
+#~ msgid "primary"
+#~ msgstr "primārā"
+
+#~ msgid "email address"
+#~ msgstr "e-pasta adrese"
+
+#~ msgid "email addresses"
+#~ msgstr "e-pasta adreses"
+
+#~ msgid "created"
+#~ msgstr "izveidots"
+
+#~ msgid "sent"
+#~ msgstr "nosūtīts"
+
+#~ msgid "key"
+#~ msgstr "atslēga"
+
+#~ msgid "email confirmation"
+#~ msgstr "e-pasta apstiprinājums"
+
+#~ msgid "email confirmations"
+#~ msgstr "e-pasta apstiprinājumi"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Jūsu kontam nav uzstādīta parole."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Jūsu kontam nav apstiprinātas e-pasta adreses."
+
+#~ msgid "Social Accounts"
+#~ msgstr "Sociālie konti"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Jau eksistē konts ar šo e-pasta adresi. Lūdzu sākumā ieejiet tajā kontā, "
+#~ "tad pievienojiet %s kontu."
+
+#~ msgid "provider"
+#~ msgstr "sniedzējs"
+
+#~ msgid "name"
+#~ msgstr "vārds"
+
+#~ msgid "client id"
+#~ msgstr "klienta id"
+
+#~ msgid "App ID, or consumer key"
+#~ msgstr "App ID, vai consumer key"
+
+#~ msgid "secret key"
+#~ msgstr "secret key"
+
+#~ msgid "API secret, client secret, or consumer secret"
+#~ msgstr "API secret, client secret, vai consumer secret"
+
+#~ msgid "Key"
+#~ msgstr "Key"
+
+#~ msgid "social application"
+#~ msgstr "sociālā aplikācija"
+
+#~ msgid "social applications"
+#~ msgstr "sociālās aplikācijas"
+
+#~ msgid "uid"
+#~ msgstr "uid"
+
+#~ msgid "last login"
+#~ msgstr "pēdējā pieslēgšanās"
+
+#~ msgid "date joined"
+#~ msgstr "reģistrācijas datums"
+
+#~ msgid "extra data"
+#~ msgstr "papildus informācija"
+
+#~ msgid "social account"
+#~ msgstr "sociālais konts"
+
+#~ msgid "social accounts"
+#~ msgstr "sociālie konti"
+
+#~ msgid "token"
+#~ msgstr "token"
+
+#~ msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
+#~ msgstr "\"oauth_token\" (OAuth1) vai piekļūt marķierim (OAuth2)"
+
+#~ msgid "token secret"
+#~ msgstr "token secret"
+
+#~ msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
+#~ msgstr "\"oauth_token_secret\" (OAuth1) vai atjaunot marķieri (OAuth2)"
+
+#~ msgid "expires at"
+#~ msgstr "beidzas"
+
+#~ msgid "social application token"
+#~ msgstr "sociālās aplikācijas marķieris"
+
+#~ msgid "social application tokens"
+#~ msgstr "sociālās aplikācijas marķieri"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Nederīga atbilde iegūstot pieprasījuma marķieri no \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Nederīga atbilde iegūstot pieejas marķieri no \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Netika saglabāts pieprasījuma marķieris priekš \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Netika saglabāts pieejas marķieris priekš  \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Nav pieejas privātam resursam \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "Šis lietotājvārds jau ir aizņemts. Lūdzu izvēlaties citu."

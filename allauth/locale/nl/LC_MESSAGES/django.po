@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allauth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2016-03-19 10:14+0100\n"
 "Last-Translator: pennersr <raymond.penners@intenct.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/django-allauth/"
@@ -18,306 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "Gebruikersnamen mogen alleen letters, cijfers en @/./+/-/_ bevatten."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "Deze gebruikersnaam mag je niet gebruiken, kies een andere."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr "Teveel foutieve inlog pogingen. Probeer het later nogmaals."
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Het wachtwoord moet minimaal {0} tekens bevatten."
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "Accounts"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Onthouden"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Dit account is niet actief"
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Je e-mail adres en wachtwoord komen niet overeen."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Je gebruikersnaam en wachtwoord komen niet overeen."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Je login en wachtwoord komen niet overeen."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "E-mail adres"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-mail"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Gebruikersnaam"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Gebruikersnaam of e-mail"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Login"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-mail (optioneel)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "Er is al een gebruiker geregistreerd met dit e-mail adres."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Wachtwoord (bevestigen)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Je moet hetzelfde wachtwoord twee keer intoetsen."
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "Dit e-mail adres is al geassocieerd met dit account."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "Dit e-mail adres is al geassocieerd met een ander account."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Huidig wachtwoord"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Nieuw wachtwoord"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Nieuw wachtwoord (bevestigen)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Geef je huidige wachtwoord op."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Dit e-mail adres is niet bij ons bekend"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr "De wachtwoordherstel-sleutel is niet geldig."
-
-#: account/models.py:26
-msgid "user"
-msgstr "gebruiker"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "e-mail adres"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "geverifieerd"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "Primair"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "e-mail adres"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "e-mail adressen"
-
-#: account/models.py:89
-msgid "created"
-msgstr "aangemaakt"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "verstuurd"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "sleutel"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "e-mail adres bevestiging"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "e-mail adres bevestigingen"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Je account heeft geen wachtwoord ingesteld."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Je account heeft geen geverifieerd e-mail adres."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "Sociale accounts"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Er bestaat al een account met dit e-mail adres. Meld je eerst aan met dit "
-"account, verbind daarna je %s account."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr ""
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "naam"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr ""
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr ""
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr ""
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr ""
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr ""
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr ""
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr ""
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr ""
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr ""
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr ""
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr ""
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr ""
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr ""
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr ""
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr ""
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr ""
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr ""
-"Ongeldig antwoord ontvangen tijdens het ophalen van een verzoeksleutel van "
-"\"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr ""
-"Ongeldig antwoord ontvangen tijdens het ophalen van een toegangssleutel van "
-"\"%s\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Geen verzoeksleutel opgeslagen voor \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Geen toegangssleutel opgeslagen voor \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Geen toegang tot prive data bij \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -483,7 +183,7 @@ msgstr ""
 "Deze e-mail verificatie link is verlopen of niet geldig. Dien een\n"
 "<a href=\"%(email_url)s\">nieuw e-mail verificatie verzoek</a> in."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Aanmelden"
@@ -517,7 +217,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Wachtwoord vergeten?"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Afmelden"
@@ -647,7 +347,7 @@ msgstr "Zet wachtwoord"
 msgid "Signup"
 msgstr "Registreren"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Registreren"
@@ -791,6 +491,163 @@ msgid ""
 msgstr ""
 "Om bij %(site_name)s in te kunnen loggen via %(provider_name)s hebben we de "
 "volgende gegevens nodig:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr ""
+#~ "Gebruikersnamen mogen alleen letters, cijfers en @/./+/-/_ bevatten."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr "Deze gebruikersnaam mag je niet gebruiken, kies een andere."
+
+#~ msgid "Too many failed login attempts. Try again later."
+#~ msgstr "Teveel foutieve inlog pogingen. Probeer het later nogmaals."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Het wachtwoord moet minimaal {0} tekens bevatten."
+
+#~ msgid "Accounts"
+#~ msgstr "Accounts"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid "Remember Me"
+#~ msgstr "Onthouden"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Dit account is niet actief"
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Je e-mail adres en wachtwoord komen niet overeen."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Je gebruikersnaam en wachtwoord komen niet overeen."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Je login en wachtwoord komen niet overeen."
+
+#~ msgid "E-mail address"
+#~ msgstr "E-mail adres"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Username"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Gebruikersnaam of e-mail"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-mail (optioneel)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Er is al een gebruiker geregistreerd met dit e-mail adres."
+
+#~ msgid "Password (again)"
+#~ msgstr "Wachtwoord (bevestigen)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Je moet hetzelfde wachtwoord twee keer intoetsen."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Dit e-mail adres is al geassocieerd met dit account."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Dit e-mail adres is al geassocieerd met een ander account."
+
+#~ msgid "Current Password"
+#~ msgstr "Huidig wachtwoord"
+
+#~ msgid "New Password"
+#~ msgstr "Nieuw wachtwoord"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Nieuw wachtwoord (bevestigen)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Geef je huidige wachtwoord op."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "Dit e-mail adres is niet bij ons bekend"
+
+#~ msgid "The password reset token was invalid."
+#~ msgstr "De wachtwoordherstel-sleutel is niet geldig."
+
+#~ msgid "user"
+#~ msgstr "gebruiker"
+
+#~ msgid "e-mail address"
+#~ msgstr "e-mail adres"
+
+#~ msgid "verified"
+#~ msgstr "geverifieerd"
+
+#~ msgid "primary"
+#~ msgstr "Primair"
+
+#~ msgid "email address"
+#~ msgstr "e-mail adres"
+
+#~ msgid "email addresses"
+#~ msgstr "e-mail adressen"
+
+#~ msgid "created"
+#~ msgstr "aangemaakt"
+
+#~ msgid "sent"
+#~ msgstr "verstuurd"
+
+#~ msgid "key"
+#~ msgstr "sleutel"
+
+#~ msgid "email confirmation"
+#~ msgstr "e-mail adres bevestiging"
+
+#~ msgid "email confirmations"
+#~ msgstr "e-mail adres bevestigingen"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Je account heeft geen wachtwoord ingesteld."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Je account heeft geen geverifieerd e-mail adres."
+
+#~ msgid "Social Accounts"
+#~ msgstr "Sociale accounts"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Er bestaat al een account met dit e-mail adres. Meld je eerst aan met dit "
+#~ "account, verbind daarna je %s account."
+
+#~ msgid "name"
+#~ msgstr "naam"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr ""
+#~ "Ongeldig antwoord ontvangen tijdens het ophalen van een verzoeksleutel "
+#~ "van \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr ""
+#~ "Ongeldig antwoord ontvangen tijdens het ophalen van een toegangssleutel "
+#~ "van \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Geen verzoeksleutel opgeslagen voor \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Geen toegangssleutel opgeslagen voor \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Geen toegang tot prive data bij \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "Deze gebruikersnaam is al in gebruik. Kies a.u.b. een andere naam."

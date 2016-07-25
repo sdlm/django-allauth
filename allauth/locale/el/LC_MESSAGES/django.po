@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2014-08-12 00:29+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,307 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.5\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr ""
-"Τα ονόματα χρήστη μπορούν να περιέχουν μόνο γράμματα, αριθμούς και τους "
-"χαρακτήρες @/./+/-/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr ""
-"Το όνομα χρήστη δε μπορεί να χρησιμοποιηθεί. Παρακαλούμε χρησιμοποιήστε άλλο "
-"όνομα χρήστη."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Ο κωδικός πρέπει να είναι κατ' ελάχιστο {0} χαρακτήρες."
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "Λογαριασμοί"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Κωδικός"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Να με θυμάσαι"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Ο λογαριασμός δεν είναι ενεργός"
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Η διεύθυνση e-mail ή/και ο κωδικός δεν είναι σωστά."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Το όνομα χρήστη ή/και ο κωδικός δεν είναι σωστά."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Το όνομα σύνδεσης ή/και ο κωδικός δεν είναι σωστά."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "Διεύθυνση e-mail"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-mail"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Όνομα χρήστη"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Όνομα χρήστη ή e-mail"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Σύνδεση"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-mail (προαιρετικό)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "Ένας χρήστης έχει ήδη εγγραφεί με τη συγκεκριμένη διεύθυνση e-mail."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Κωδικός (ξανά)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Πρέπει να συμπληρώνετε τον ίδιο κωδικό κάθε φορά."
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "Αυτή η διεύθυνση e-mail έχει ήδη συσχετιστεί με το λογαριασμό."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "Αυτή η διεύθυνση e-mail έχει ήδη συσχετιστεί με έναν άλλο λογαριασμό."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Τρέχον κωδικός"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Νέος κωδικός"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Νέος κωδικός (ξανά)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Παρακαλούμε συμπληρώσατε τον κωδικό σας."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Η διεύθυνση e-mail δεν έχει συσχετιστεί με κάποιο λογαριασμό"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "χρήστης"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "διεύθυνση e-mail"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "επιβεβαιωμένο"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "πρωτεύων"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "διεύθυνση email"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "διευθύνσεις email"
-
-#: account/models.py:89
-msgid "created"
-msgstr "δημιουργήθηκε"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "στάλθηκε"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "κλειδί"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "επιβεβαίωση email"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "επιβεβαιώσεις email"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Ο λογαριασμός σας δεν έχει κωδικό."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Ο λογαριασμός σας δεν έχει επιβεβαιωμένη διεύθυνση e-mail."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "Κοινωνικοί λογαριασμοί"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Υπάρχει ήδη΄ενας λογαριασμός με αυτή τη διεύθυνση e-mail. Παρακαλούμε "
-"συνδεθείτε πρώτα σε αυτό το λογαριασμό και ακολούθως συνδέστε τον %s "
-"λογαριασμό."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr "πάροχος"
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "όνομα"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr "client id"
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr "App ID ή consumer key"
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr "secret key"
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr "API secret, client secret, or consumer secret"
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr "Κλειδί"
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr "κοινωνική εφαρμογή"
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr "κοινωνικές εφαρμογές"
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr "uid"
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr "τελευταία σύνδεση"
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr "ημερομηνία εγγραφής"
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr "επιπλέον πληροφορίες"
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr "κοινωνικός λογαριασμός"
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr "κοινωνικοί λογαριασμοί"
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr "\"oauth_token\" (OAuth1) ή access token (OAuth2)"
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr "token secret"
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr "\"oauth_token_secret\" (OAuth1) ή refresh token (OAuth2)"
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr "λήγει στις"
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr "token κοινωνικής εφαρμογής"
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr "token κοινωνικών εφαρμογών"
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Λάθος απάντηση κατά τη λήψη του request token από το \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Λάθος απάντηση κατά τη λήψη του access token από το \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Δεν αποθηκεύθηκε request token για το \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Δεν αποθηκεύθηκε access token για το \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Δεν υπάρχει πρόσβαση σε ιδιωτικούς πόρους για το \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -486,7 +185,7 @@ msgstr ""
 "Η σύνδεση επιβεβαίωσης e-mail είναι εσφαλμένη. Παρακαλούμε <a href="
 "\"%(email_url)s\">δημιουργήστε μια νέα</a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Είσοδος"
@@ -520,7 +219,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Ξεχάσατε τον κωδικό σας;"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Αποσύνδεση"
@@ -650,7 +349,7 @@ msgstr "Δημιουργία κωδικού"
 msgid "Signup"
 msgstr "Εγγραφή"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Εγγραφή"
@@ -801,6 +500,218 @@ msgstr ""
 "Θα χρησιμοποιήσετε το λογαριασμό σας στο %(provider_name)s για να συνδεθείτε "
 "στο\n"
 "%(site_name)s. Σαν τελικό βήμα, παρακαλούμε συμπληρώστε τη φόρμα:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr ""
+#~ "Τα ονόματα χρήστη μπορούν να περιέχουν μόνο γράμματα, αριθμούς και τους "
+#~ "χαρακτήρες @/./+/-/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr ""
+#~ "Το όνομα χρήστη δε μπορεί να χρησιμοποιηθεί. Παρακαλούμε χρησιμοποιήστε "
+#~ "άλλο όνομα χρήστη."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Ο κωδικός πρέπει να είναι κατ' ελάχιστο {0} χαρακτήρες."
+
+#~ msgid "Accounts"
+#~ msgstr "Λογαριασμοί"
+
+#~ msgid "Password"
+#~ msgstr "Κωδικός"
+
+#~ msgid "Remember Me"
+#~ msgstr "Να με θυμάσαι"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Ο λογαριασμός δεν είναι ενεργός"
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Η διεύθυνση e-mail ή/και ο κωδικός δεν είναι σωστά."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Το όνομα χρήστη ή/και ο κωδικός δεν είναι σωστά."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Το όνομα σύνδεσης ή/και ο κωδικός δεν είναι σωστά."
+
+#~ msgid "E-mail address"
+#~ msgstr "Διεύθυνση e-mail"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Username"
+#~ msgstr "Όνομα χρήστη"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Όνομα χρήστη ή e-mail"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-mail (προαιρετικό)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Ένας χρήστης έχει ήδη εγγραφεί με τη συγκεκριμένη διεύθυνση e-mail."
+
+#~ msgid "Password (again)"
+#~ msgstr "Κωδικός (ξανά)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Πρέπει να συμπληρώνετε τον ίδιο κωδικό κάθε φορά."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Αυτή η διεύθυνση e-mail έχει ήδη συσχετιστεί με το λογαριασμό."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr ""
+#~ "Αυτή η διεύθυνση e-mail έχει ήδη συσχετιστεί με έναν άλλο λογαριασμό."
+
+#~ msgid "Current Password"
+#~ msgstr "Τρέχον κωδικός"
+
+#~ msgid "New Password"
+#~ msgstr "Νέος κωδικός"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Νέος κωδικός (ξανά)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Παρακαλούμε συμπληρώσατε τον κωδικό σας."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "Η διεύθυνση e-mail δεν έχει συσχετιστεί με κάποιο λογαριασμό"
+
+#~ msgid "user"
+#~ msgstr "χρήστης"
+
+#~ msgid "e-mail address"
+#~ msgstr "διεύθυνση e-mail"
+
+#~ msgid "verified"
+#~ msgstr "επιβεβαιωμένο"
+
+#~ msgid "primary"
+#~ msgstr "πρωτεύων"
+
+#~ msgid "email address"
+#~ msgstr "διεύθυνση email"
+
+#~ msgid "email addresses"
+#~ msgstr "διευθύνσεις email"
+
+#~ msgid "created"
+#~ msgstr "δημιουργήθηκε"
+
+#~ msgid "sent"
+#~ msgstr "στάλθηκε"
+
+#~ msgid "key"
+#~ msgstr "κλειδί"
+
+#~ msgid "email confirmation"
+#~ msgstr "επιβεβαίωση email"
+
+#~ msgid "email confirmations"
+#~ msgstr "επιβεβαιώσεις email"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Ο λογαριασμός σας δεν έχει κωδικό."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Ο λογαριασμός σας δεν έχει επιβεβαιωμένη διεύθυνση e-mail."
+
+#~ msgid "Social Accounts"
+#~ msgstr "Κοινωνικοί λογαριασμοί"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Υπάρχει ήδη΄ενας λογαριασμός με αυτή τη διεύθυνση e-mail. Παρακαλούμε "
+#~ "συνδεθείτε πρώτα σε αυτό το λογαριασμό και ακολούθως συνδέστε τον %s "
+#~ "λογαριασμό."
+
+#~ msgid "provider"
+#~ msgstr "πάροχος"
+
+#~ msgid "name"
+#~ msgstr "όνομα"
+
+#~ msgid "client id"
+#~ msgstr "client id"
+
+#~ msgid "App ID, or consumer key"
+#~ msgstr "App ID ή consumer key"
+
+#~ msgid "secret key"
+#~ msgstr "secret key"
+
+#~ msgid "API secret, client secret, or consumer secret"
+#~ msgstr "API secret, client secret, or consumer secret"
+
+#~ msgid "Key"
+#~ msgstr "Κλειδί"
+
+#~ msgid "social application"
+#~ msgstr "κοινωνική εφαρμογή"
+
+#~ msgid "social applications"
+#~ msgstr "κοινωνικές εφαρμογές"
+
+#~ msgid "uid"
+#~ msgstr "uid"
+
+#~ msgid "last login"
+#~ msgstr "τελευταία σύνδεση"
+
+#~ msgid "date joined"
+#~ msgstr "ημερομηνία εγγραφής"
+
+#~ msgid "extra data"
+#~ msgstr "επιπλέον πληροφορίες"
+
+#~ msgid "social account"
+#~ msgstr "κοινωνικός λογαριασμός"
+
+#~ msgid "social accounts"
+#~ msgstr "κοινωνικοί λογαριασμοί"
+
+#~ msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
+#~ msgstr "\"oauth_token\" (OAuth1) ή access token (OAuth2)"
+
+#~ msgid "token secret"
+#~ msgstr "token secret"
+
+#~ msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
+#~ msgstr "\"oauth_token_secret\" (OAuth1) ή refresh token (OAuth2)"
+
+#~ msgid "expires at"
+#~ msgstr "λήγει στις"
+
+#~ msgid "social application token"
+#~ msgstr "token κοινωνικής εφαρμογής"
+
+#~ msgid "social application tokens"
+#~ msgstr "token κοινωνικών εφαρμογών"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Λάθος απάντηση κατά τη λήψη του request token από το \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Λάθος απάντηση κατά τη λήψη του access token από το \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Δεν αποθηκεύθηκε request token για το \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Δεν αποθηκεύθηκε access token για το \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Δεν υπάρχει πρόσβαση σε ιδιωτικούς πόρους για το \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr ""

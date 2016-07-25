@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2014-08-12 00:31+0200\n"
 "Last-Translator:   <goran.cetusic@gmail.com>\n"
 "Language-Team: Bojan Mihelac <bmihelac@mihelac.org>\n"
@@ -22,302 +22,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Translated-Using: django-rosetta 0.7.2\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "Korisničko ime može sadržavati samo slova, brojeve i @/./+/-/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "Nije moguće koristiti upisano korisničko ime. Molimo odaberite drugo."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Lozinka treba imati najmanje {0} znakova."
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "Korisnički računi"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Lozinka"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Zapamti me"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Ovaj korisnički račun je privremeno neaktivan."
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "E-mail adresa i/ili lozinka nisu ispravni."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Korisničko ime i/ili lozinka nisu ispravni."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Korisničko ime i/ili zaporka nisu ispravni."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "E-mail adresa"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-mail"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Korisničko ime"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Korisničko ime ili e-mail"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Prijava"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-mail (neobavezno)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "Već postoji korisnik registriran s ovom e-mail adresom."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Lozinka (ponovno)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Potrebno je upisati istu lozinku svaki put."
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "E-mail adresa je već registrirana s ovim korisničkim računom."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "E-mail adresa je već registrirana s drugim korisničkim računom."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Trenutna lozinka"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Nova lozinka"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Nova lozinka (ponovno)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Molimo unesite trenutnu lozinku."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Upisana e-mail adresa nije dodijeljena niti jednom korisničkom računu"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "korisnik"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "e-mail adresa"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "potvrđena"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "primarna"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "E-mail adresa"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "E-mail adrese"
-
-#: account/models.py:89
-msgid "created"
-msgstr ""
-
-#: account/models.py:91
-msgid "sent"
-msgstr ""
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr ""
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "E-mail potvrda"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "E-mail potvrde"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Vaš korisnički račun nema postavljenu lozinku."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Vaš korisnički račun nema potvrđenu e-mail adresu."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "Korisnički računi"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Korisnički račun s ovom e-mail adresom već postoji. Molimo da se prvo "
-"ulogirate pod tim korisničkim računom i spojite svoj %s račun"
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr ""
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "naziv"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr ""
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr ""
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr ""
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr ""
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr ""
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr ""
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr ""
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr ""
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr ""
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr ""
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr ""
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr ""
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr ""
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr ""
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr ""
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr ""
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Neispravan odaziv pri dohvatu tokena zahtjeva od \\\"%s\\\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Neispravan odaziv pri dohvatu pristupnog tokena od \\\"%s\\\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Ne postoji pohranjeni token za \\\"%s\\\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Token za pristup za  \\\"%s\\\" nije pohranjen."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Nemate pristup zaštičenim sadržajima na \\\"%s\\\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -477,7 +181,7 @@ msgstr ""
 "Ovaj link za potvrdu je istekao ili je neispravan. Zatražite <a href=\\"
 "\"%(email_url)s\\\">novi e-mail za potvrdu</a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Prijava"
@@ -511,7 +215,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Zaboravili ste lozinku?"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Odjava"
@@ -639,7 +343,7 @@ msgstr "Postavljanje lozinke"
 msgid "Signup"
 msgstr "Registracija"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Registracija"
@@ -789,6 +493,145 @@ msgstr ""
 "Odabrali ste da ćete koristiti vaš %(provider_name)s račun za prijavu u "
 "stranicu %(site_name)s. Kao posljednji korak, molimo vas ispunite sljedeći "
 "obrazac:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "Korisničko ime može sadržavati samo slova, brojeve i @/./+/-/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr ""
+#~ "Nije moguće koristiti upisano korisničko ime. Molimo odaberite drugo."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Lozinka treba imati najmanje {0} znakova."
+
+#~ msgid "Accounts"
+#~ msgstr "Korisnički računi"
+
+#~ msgid "Password"
+#~ msgstr "Lozinka"
+
+#~ msgid "Remember Me"
+#~ msgstr "Zapamti me"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Ovaj korisnički račun je privremeno neaktivan."
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "E-mail adresa i/ili lozinka nisu ispravni."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Korisničko ime i/ili lozinka nisu ispravni."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Korisničko ime i/ili zaporka nisu ispravni."
+
+#~ msgid "E-mail address"
+#~ msgstr "E-mail adresa"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Username"
+#~ msgstr "Korisničko ime"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Korisničko ime ili e-mail"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Prijava"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-mail (neobavezno)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Već postoji korisnik registriran s ovom e-mail adresom."
+
+#~ msgid "Password (again)"
+#~ msgstr "Lozinka (ponovno)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Potrebno je upisati istu lozinku svaki put."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "E-mail adresa je već registrirana s ovim korisničkim računom."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "E-mail adresa je već registrirana s drugim korisničkim računom."
+
+#~ msgid "Current Password"
+#~ msgstr "Trenutna lozinka"
+
+#~ msgid "New Password"
+#~ msgstr "Nova lozinka"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Nova lozinka (ponovno)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Molimo unesite trenutnu lozinku."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr ""
+#~ "Upisana e-mail adresa nije dodijeljena niti jednom korisničkom računu"
+
+#~ msgid "user"
+#~ msgstr "korisnik"
+
+#~ msgid "e-mail address"
+#~ msgstr "e-mail adresa"
+
+#~ msgid "verified"
+#~ msgstr "potvrđena"
+
+#~ msgid "primary"
+#~ msgstr "primarna"
+
+#~ msgid "email address"
+#~ msgstr "E-mail adresa"
+
+#~ msgid "email addresses"
+#~ msgstr "E-mail adrese"
+
+#~ msgid "email confirmation"
+#~ msgstr "E-mail potvrda"
+
+#~ msgid "email confirmations"
+#~ msgstr "E-mail potvrde"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Vaš korisnički račun nema postavljenu lozinku."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Vaš korisnički račun nema potvrđenu e-mail adresu."
+
+#~ msgid "Social Accounts"
+#~ msgstr "Korisnički računi"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Korisnički račun s ovom e-mail adresom već postoji. Molimo da se prvo "
+#~ "ulogirate pod tim korisničkim računom i spojite svoj %s račun"
+
+#~ msgid "name"
+#~ msgstr "naziv"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Neispravan odaziv pri dohvatu tokena zahtjeva od \\\"%s\\\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Neispravan odaziv pri dohvatu pristupnog tokena od \\\"%s\\\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Ne postoji pohranjeni token za \\\"%s\\\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Token za pristup za  \\\"%s\\\" nije pohranjen."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Nemate pristup zaštičenim sadržajima na \\\"%s\\\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr ""

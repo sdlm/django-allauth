@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2015-09-14 12:40-0000\n"
 "Last-Translator: NARIMAN GHARIB <NARIMAN.GH@GMAIL.COM>\n"
 "Language-Team: \n"
@@ -15,307 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.7.4\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "نام کاربری تنها می‌تواند شامل حروف ، اعداد و  @/./+/-/_. باشد"
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "این نام‌کاربری نمی‌تواند انتخاب شود، لطفا یک نام‌کاربری دیگر انتخاب کنید"
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "پسورد تنها می‌تواند دارای {0} کاراکتر باشد."
-
-#: account/apps.py:8
-#, fuzzy
-msgid "Accounts"
-msgstr "حساب کاربری"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "رمز عبور"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "مرا به خاطر بسپار"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "این حساب کاربری درحال حاضر غیرفعال است"
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "آدرس ایمیل"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "ایمیل"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "نام کاربری"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "نام کاربری یا ایمیل"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "ورود"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "ایمیل (اختیاری)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "کاربر دیگری قبلا با این نام کاربری ثبت نام کرده است."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "تکرار رمز عبور"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "شما باید رمز عبور یکسانی را انتخاب کنید"
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربری وصل شده است."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr ""
-"ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربر دیگری وصل شده است."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "رمز عبور فعلی"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "رمز عبور جدید"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "تکرار رمز عبور جدید"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "لطفا رمز عبور فعلی خود را تایپ کنید"
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "این آدرس ایمیل به هیچ حساب کاربری متصل نشده است"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "کاربر"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "آدرس ایمیل"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "تایید شده"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "اصلی"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "آدرس ایمیل"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "آدرس ایمیل"
-
-#: account/models.py:89
-msgid "created"
-msgstr "ساخته شده"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "ارسال شد"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "کلید"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "تائید آدرس ایمیل"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "تاییدیه‌های ایمیل"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "حساب کاربری شما هنوز هیچ رمز عبوری ندارد"
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "حساب کاربری شما هنوز هیچ ایمیل تایید شده‌ای ندارد."
-
-#: socialaccount/apps.py:8
-#, fuzzy
-msgid "Social Accounts"
-msgstr "حساب کاربری"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"یک جساب کاربری دیگری با این ایمیل آدرس موجود است. لطفا ابتدا از طریق آن حساب "
-"وارد شوید. اول حساب کاربری و بعد حساب کاربری %s را متصل کنید."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr ""
-
-#: socialaccount/models.py:50
-#, fuzzy
-msgid "name"
-msgstr "نام کاربری"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr ""
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr ""
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr ""
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr ""
-
-#: socialaccount/models.py:62
-#, fuzzy
-msgid "Key"
-msgstr "کلید"
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr ""
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr ""
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr ""
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr ""
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr ""
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr ""
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr ""
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr ""
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr ""
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr "انقضا در"
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr "توکن اپلیکشن"
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr "توکن اپلیکیشن‌ها"
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Invalid response while obtaining request token from \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "پاسخ دریافتی به درخواست دریافت توکن دسترسی از \"%s\" معتبر نمی‌باشد."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "توکن درخواست برای \"%s\" ذخیره نشده است."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "توکن دسترسی به \"%s\" ذخیره نشده است."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "عدم دسترسی به منابع خصوصی در  \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -485,7 +184,7 @@ msgstr ""
 "این پیوند برای تایید آدرس ایمیل منقضی شده است. لطفا <a href=\"%(email_url)s"
 "\">درخواست یک پیوند جدید برای تایید ایمیل خودتان را بدهید</a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "ورود"
@@ -520,7 +219,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "رمز عبور را فراموش کرده‌اید؟"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "خروج"
@@ -648,7 +347,7 @@ msgstr "انتخاب رمز عبور"
 msgid "Signup"
 msgstr "قبت نام"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "ثبت نام"
@@ -798,6 +497,170 @@ msgstr ""
 "چند قدم مانده تا شما با نام  %(provider_name)s وارد \n"
 "%(site_name)s. شوید. برای مراحل آخر لطفا در ادامه فرم‌های مورد نظر را تکمیل "
 "فرمایید."
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "نام کاربری تنها می‌تواند شامل حروف ، اعداد و  @/./+/-/_. باشد"
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr ""
+#~ "این نام‌کاربری نمی‌تواند انتخاب شود، لطفا یک نام‌کاربری دیگر انتخاب کنید"
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "پسورد تنها می‌تواند دارای {0} کاراکتر باشد."
+
+#, fuzzy
+#~ msgid "Accounts"
+#~ msgstr "حساب کاربری"
+
+#~ msgid "Password"
+#~ msgstr "رمز عبور"
+
+#~ msgid "Remember Me"
+#~ msgstr "مرا به خاطر بسپار"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "این حساب کاربری درحال حاضر غیرفعال است"
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
+
+#~ msgid "E-mail address"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "E-mail"
+#~ msgstr "ایمیل"
+
+#~ msgid "Username"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "نام کاربری یا ایمیل"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "ورود"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "ایمیل (اختیاری)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "کاربر دیگری قبلا با این نام کاربری ثبت نام کرده است."
+
+#~ msgid "Password (again)"
+#~ msgstr "تکرار رمز عبور"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "شما باید رمز عبور یکسانی را انتخاب کنید"
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربری وصل شده است."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr ""
+#~ "ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربر دیگری وصل شده است."
+
+#~ msgid "Current Password"
+#~ msgstr "رمز عبور فعلی"
+
+#~ msgid "New Password"
+#~ msgstr "رمز عبور جدید"
+
+#~ msgid "New Password (again)"
+#~ msgstr "تکرار رمز عبور جدید"
+
+#~ msgid "Please type your current password."
+#~ msgstr "لطفا رمز عبور فعلی خود را تایپ کنید"
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "این آدرس ایمیل به هیچ حساب کاربری متصل نشده است"
+
+#~ msgid "user"
+#~ msgstr "کاربر"
+
+#~ msgid "e-mail address"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "verified"
+#~ msgstr "تایید شده"
+
+#~ msgid "primary"
+#~ msgstr "اصلی"
+
+#~ msgid "email address"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "email addresses"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "created"
+#~ msgstr "ساخته شده"
+
+#~ msgid "sent"
+#~ msgstr "ارسال شد"
+
+#~ msgid "key"
+#~ msgstr "کلید"
+
+#~ msgid "email confirmation"
+#~ msgstr "تائید آدرس ایمیل"
+
+#~ msgid "email confirmations"
+#~ msgstr "تاییدیه‌های ایمیل"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "حساب کاربری شما هنوز هیچ رمز عبوری ندارد"
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "حساب کاربری شما هنوز هیچ ایمیل تایید شده‌ای ندارد."
+
+#, fuzzy
+#~ msgid "Social Accounts"
+#~ msgstr "حساب کاربری"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "یک جساب کاربری دیگری با این ایمیل آدرس موجود است. لطفا ابتدا از طریق آن "
+#~ "حساب وارد شوید. اول حساب کاربری و بعد حساب کاربری %s را متصل کنید."
+
+#, fuzzy
+#~ msgid "name"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~ msgid "Key"
+#~ msgstr "کلید"
+
+#~ msgid "expires at"
+#~ msgstr "انقضا در"
+
+#~ msgid "social application token"
+#~ msgstr "توکن اپلیکشن"
+
+#~ msgid "social application tokens"
+#~ msgstr "توکن اپلیکیشن‌ها"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Invalid response while obtaining request token from \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "پاسخ دریافتی به درخواست دریافت توکن دسترسی از \"%s\" معتبر نمی‌باشد."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "توکن درخواست برای \"%s\" ذخیره نشده است."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "توکن دسترسی به \"%s\" ذخیره نشده است."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "عدم دسترسی به منابع خصوصی در  \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "این نام‌کاربری قبلا ثبت شده است. لطفا نام‌کاربری دیگر انتخاب کنید"

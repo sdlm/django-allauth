@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tomas Babej <tomasbabej@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,303 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "Užívateľské mená môžu obsahovať iba písmená, číslice a @/./+/-/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "Užívateľské meno nemôže byť použité. Prosím, použite iné meno."
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Heslo musí mať aspoň {0} znakov"
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "Účty"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "Heslo"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "Zapamätať si ma"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "Tento účet nie je momentálne aktívny. "
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Uvedený e-mail alebo heslo nie je správne."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "Uvedené užívateľské meno alebo heslo nie je správne."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "Uvedený login alebo heslo nie je správne."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "E-mailová adresa"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "E-mail"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "Užívateľské meno"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "Užívateľské meno alebo e-mail"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "Login"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "E-mail (nepovinné)"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "Používateľ s touto e-mailovou adresou už existuje."
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "Heslo (znovu)"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "Heslá sa nezhodujú."
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "Táto e-mailová adresa je už spojená s týmto účtom."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "Táto e-mailová adresa je už spojená s iným účtom."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "Súčasné heslo"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "Nové heslo"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "Nové heslo (znovu)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "Prosím, napíšte svoje súčasné heslo."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr ""
-"Táto e-mailová adresa nie je pridelená k žiadnemu používateľskému kontu"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "používateľ"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "e-mailová adresa"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "overený"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "primárny"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "e-mailová adresa"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "e-mailové adresy"
-
-#: account/models.py:89
-msgid "created"
-msgstr "vytvorený"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "odoslané"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "kľúč"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "potvrdenie e-mailu"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "potvrdenia e-mailu"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "Váš účet nemá nastavené heslo."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "Váš účet nemá overenú e-mailovú adresu."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "Účty na sociálnych sieťach"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"Účet s touto e-mailovou adresou už existuje. Prosím, prihláste sa najprv na "
-"tento účet a potom pripojte svoj %s účet."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr ""
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "Užívateľské meno"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr ""
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr ""
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr ""
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr ""
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr "kľúč"
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr ""
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr ""
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr ""
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr ""
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr ""
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr ""
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr ""
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr ""
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr ""
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr ""
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr ""
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Neplatná odozva pri získavaní požiadavky tokenu z  \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Neplatná odozva pri získavaní prístupu tokenu z \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Žiadna uložená požiadavka tokenu pre \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Žiadny uložený prístupový token pre \"%s\"."
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Žiadny prístup do privátneho úložiska na \"%s\"."
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -478,7 +181,7 @@ msgstr ""
 "Odkaz na potvrdenie e-mailu je neplatný alebo vypršal. <a href="
 "\"%(email_url)s\">Zaslať novú žiadosť o overovací e-mail</a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "Prihlásiť sa"
@@ -513,7 +216,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "Zabudnuté heslo?"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "Odhlásiť"
@@ -641,7 +344,7 @@ msgstr "Nastaviť heslo"
 msgid "Signup"
 msgstr "Registrácia"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "Zaregistrovať"
@@ -785,6 +488,156 @@ msgid ""
 msgstr ""
 "Chystáte sa použiť váš %(provider_name)s účet na prihlásenie do\n"
 "%(site_name)s. Ako posledný krok vyplňte nasledujúci formulár:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "Užívateľské mená môžu obsahovať iba písmená, číslice a @/./+/-/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr "Užívateľské meno nemôže byť použité. Prosím, použite iné meno."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Heslo musí mať aspoň {0} znakov"
+
+#~ msgid "Accounts"
+#~ msgstr "Účty"
+
+#~ msgid "Password"
+#~ msgstr "Heslo"
+
+#~ msgid "Remember Me"
+#~ msgstr "Zapamätať si ma"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Tento účet nie je momentálne aktívny. "
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Uvedený e-mail alebo heslo nie je správne."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Uvedené užívateľské meno alebo heslo nie je správne."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Uvedený login alebo heslo nie je správne."
+
+#~ msgid "E-mail address"
+#~ msgstr "E-mailová adresa"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Username"
+#~ msgstr "Užívateľské meno"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Užívateľské meno alebo e-mail"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-mail (nepovinné)"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Používateľ s touto e-mailovou adresou už existuje."
+
+#~ msgid "Password (again)"
+#~ msgstr "Heslo (znovu)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Heslá sa nezhodujú."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Táto e-mailová adresa je už spojená s týmto účtom."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Táto e-mailová adresa je už spojená s iným účtom."
+
+#~ msgid "Current Password"
+#~ msgstr "Súčasné heslo"
+
+#~ msgid "New Password"
+#~ msgstr "Nové heslo"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Nové heslo (znovu)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Prosím, napíšte svoje súčasné heslo."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr ""
+#~ "Táto e-mailová adresa nie je pridelená k žiadnemu používateľskému kontu"
+
+#~ msgid "user"
+#~ msgstr "používateľ"
+
+#~ msgid "e-mail address"
+#~ msgstr "e-mailová adresa"
+
+#~ msgid "verified"
+#~ msgstr "overený"
+
+#~ msgid "primary"
+#~ msgstr "primárny"
+
+#~ msgid "email address"
+#~ msgstr "e-mailová adresa"
+
+#~ msgid "email addresses"
+#~ msgstr "e-mailové adresy"
+
+#~ msgid "created"
+#~ msgstr "vytvorený"
+
+#~ msgid "sent"
+#~ msgstr "odoslané"
+
+#~ msgid "key"
+#~ msgstr "kľúč"
+
+#~ msgid "email confirmation"
+#~ msgstr "potvrdenie e-mailu"
+
+#~ msgid "email confirmations"
+#~ msgstr "potvrdenia e-mailu"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Váš účet nemá nastavené heslo."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Váš účet nemá overenú e-mailovú adresu."
+
+#~ msgid "Social Accounts"
+#~ msgstr "Účty na sociálnych sieťach"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "Účet s touto e-mailovou adresou už existuje. Prosím, prihláste sa najprv "
+#~ "na tento účet a potom pripojte svoj %s účet."
+
+#~ msgid "name"
+#~ msgstr "Užívateľské meno"
+
+#~ msgid "Key"
+#~ msgstr "kľúč"
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Neplatná odozva pri získavaní požiadavky tokenu z  \"%s\"."
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Neplatná odozva pri získavaní prístupu tokenu z \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Žiadna uložená požiadavka tokenu pre \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Žiadny uložený prístupový token pre \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Žiadny prístup do privátneho úložiska na \"%s\"."
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "Toto užívateľské meno je už obsadené. Prosím, zvoľte iné."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-19 04:07-0500\n"
+"POT-Creation-Date: 2016-07-25 07:57-0500\n"
 "PO-Revision-Date: 2016-01-19 19:32+0100\n"
 "Last-Translator: David D Lowe <daviddlowe.flimm@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -18,302 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Poedit 1.8.6\n"
-
-#: account/adapter.py:47
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr "يمكن أن تحتوي أسماء المستخدمين إلا على الحروف، الأرقام و @/‪.‬/-/+/_."
-
-#: account/adapter.py:49
-msgid "Username can not be used. Please use other username."
-msgstr "اسم المستخدم غير مسموح به. الرجاء اختيار اسم اخر‪.‬"
-
-#: account/adapter.py:53
-msgid "Too many failed login attempts. Try again later."
-msgstr ""
-
-#: account/adapter.py:293
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "كلمة المرور يجب أن لا تقل عن {0} حروف."
-
-#: account/apps.py:8
-msgid "Accounts"
-msgstr "الحسابات"
-
-#: account/forms.py:58 account/forms.py:295 account/forms.py:418
-msgid "Password"
-msgstr "كلمة السر"
-
-#: account/forms.py:59
-msgid "Remember Me"
-msgstr "ذكرني"
-
-#: account/forms.py:65
-msgid "This account is currently inactive."
-msgstr "هذا الحساب غير نشط حاليا."
-
-#: account/forms.py:68
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "عنوان البريد الإلكتروني و / أو كلمة المرور الذي حددته غير صحيحة."
-
-#: account/forms.py:71
-msgid "The username and/or password you specified are not correct."
-msgstr "اسم المستخدم و / أو كلمة المرور الذي حددته غير صحيحة."
-
-#: account/forms.py:74
-msgid "The login and/or password you specified are not correct."
-msgstr "تسجيل الدخول و / أو كلمة المرور الذي حددته غير صحيحة."
-
-#: account/forms.py:83 account/forms.py:224 account/forms.py:359
-#: account/forms.py:446
-msgid "E-mail address"
-msgstr "عنوان البريد الالكتروني"
-
-#: account/forms.py:85 account/forms.py:242 account/forms.py:354
-#: account/forms.py:441
-msgid "E-mail"
-msgstr "البريد الالكتروني"
-
-#: account/forms.py:90 account/forms.py:93 account/forms.py:216
-#: account/forms.py:220
-msgid "Username"
-msgstr "اسم المستخدم"
-
-#: account/forms.py:100
-msgid "Username or e-mail"
-msgstr "اسم المستخدم أو البريج الالكتروني"
-
-#: account/forms.py:103
-msgctxt "field label"
-msgid "Login"
-msgstr "تسجيل الدخول"
-
-#: account/forms.py:245
-msgid "E-mail (optional)"
-msgstr "البريد الالكتروني ‪)‬اختياري‪(‬"
-
-#: account/forms.py:277
-msgid "A user is already registered with this e-mail address."
-msgstr "هنالك مستخدم مسجل سابقا مع نفس عنوان البريد الاكتروني‪.‬"
-
-#: account/forms.py:296 account/forms.py:419
-msgid "Password (again)"
-msgstr "كلمة السر ‪)‬مرة أخرى‪(‬"
-
-#: account/forms.py:329 account/forms.py:408 account/forms.py:430
-#: account/forms.py:518
-msgid "You must type the same password each time."
-msgstr "يجب عليك كتابة نفس كلمة المرور في كل مرة‪.‬"
-
-#: account/forms.py:365
-msgid "This e-mail address is already associated with this account."
-msgstr "عنوان البريد الإلكتروني هذا بالفعل المقترنة مع هذا الحساب."
-
-#: account/forms.py:367
-msgid "This e-mail address is already associated with another account."
-msgstr "عنوان البريد الإلكتروني هذا مقترن بالفعل بحساب آخر."
-
-#: account/forms.py:389
-msgid "Current Password"
-msgstr "كلمة المرور الحالية"
-
-#: account/forms.py:390 account/forms.py:503
-msgid "New Password"
-msgstr "كلمة المرور الجديدة"
-
-#: account/forms.py:391 account/forms.py:504
-msgid "New Password (again)"
-msgstr "كلمة المرور الجديدة (مرة أخرى)"
-
-#: account/forms.py:399
-msgid "Please type your current password."
-msgstr "الرجاء كتابة كلمة المرور الحالية الخاصة بك."
-
-#: account/forms.py:455
-msgid "The e-mail address is not assigned to any user account"
-msgstr "لم يتم تعيين عنوان البريد الإلكتروني لأي حساب مستخدم"
-
-#: account/forms.py:535
-msgid "The password reset token was invalid."
-msgstr ""
-
-#: account/models.py:26
-msgid "user"
-msgstr "مستخدم"
-
-#: account/models.py:29 account/models.py:88
-msgid "e-mail address"
-msgstr "عنوان بريد إلكتروني"
-
-#: account/models.py:30
-msgid "verified"
-msgstr "تمّ تحقيقه"
-
-#: account/models.py:31
-msgid "primary"
-msgstr "أوّلي"
-
-#: account/models.py:36
-msgid "email address"
-msgstr "عنوان بريد الكتروني"
-
-#: account/models.py:37
-msgid "email addresses"
-msgstr "عناوين البريد الالكتروني"
-
-#: account/models.py:89
-msgid "created"
-msgstr "تمّ إنشاؤه"
-
-#: account/models.py:91
-msgid "sent"
-msgstr "مبعوث"
-
-#: account/models.py:92 socialaccount/models.py:59
-msgid "key"
-msgstr "مفتاح"
-
-#: account/models.py:97
-msgid "email confirmation"
-msgstr "تأكيد البريد الإلكتروني"
-
-#: account/models.py:98
-msgid "email confirmations"
-msgstr "تأكيدات البريد الإلكتروني"
-
-#: socialaccount/adapter.py:121
-msgid "Your account has no password set up."
-msgstr "حسابك ليس لديه كلمة مرور اقامة."
-
-#: socialaccount/adapter.py:128
-msgid "Your account has no verified e-mail address."
-msgstr "حسابك ليس لديه عنوان البريد الإلكتروني تحققنا منها."
-
-#: socialaccount/apps.py:8
-msgid "Social Accounts"
-msgstr "الحسابات الاجتماعية"
-
-#: socialaccount/forms.py:41
-#, python-format
-msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
-"account first, then connect your %s account."
-msgstr ""
-"حساب موجود بالفعل مع هذا عنوان البريد الإلكتروني. يرجى تسجيل الدخول إلى هذا "
-"الحساب أولا، ثم ربط حساب %s الخاص بك."
-
-#: socialaccount/models.py:47 socialaccount/models.py:80
-msgid "provider"
-msgstr "مزود"
-
-#: socialaccount/models.py:50
-msgid "name"
-msgstr "اسم"
-
-#: socialaccount/models.py:52
-msgid "client id"
-msgstr ""
-
-#: socialaccount/models.py:54
-msgid "App ID, or consumer key"
-msgstr ""
-
-#: socialaccount/models.py:55
-msgid "secret key"
-msgstr ""
-
-#: socialaccount/models.py:57
-msgid "API secret, client secret, or consumer secret"
-msgstr ""
-
-#: socialaccount/models.py:62
-msgid "Key"
-msgstr ""
-
-#: socialaccount/models.py:70
-msgid "social application"
-msgstr ""
-
-#: socialaccount/models.py:71
-msgid "social applications"
-msgstr ""
-
-#: socialaccount/models.py:99
-msgid "uid"
-msgstr ""
-
-#: socialaccount/models.py:101
-msgid "last login"
-msgstr ""
-
-#: socialaccount/models.py:103
-msgid "date joined"
-msgstr ""
-
-#: socialaccount/models.py:105
-msgid "extra data"
-msgstr ""
-
-#: socialaccount/models.py:109
-msgid "social account"
-msgstr ""
-
-#: socialaccount/models.py:110
-msgid "social accounts"
-msgstr ""
-
-#: socialaccount/models.py:136
-msgid "token"
-msgstr ""
-
-#: socialaccount/models.py:138
-msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:141
-msgid "token secret"
-msgstr ""
-
-#: socialaccount/models.py:143
-msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
-
-#: socialaccount/models.py:145
-msgid "expires at"
-msgstr ""
-
-#: socialaccount/models.py:149
-msgid "social application token"
-msgstr ""
-
-#: socialaccount/models.py:150
-msgid "social application tokens"
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:77
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:103
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:119
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:168
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr ""
-
-#: socialaccount/providers/oauth/client.py:188
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr ""
 
 #: templates/account/account_inactive.html:5
 #: templates/account/account_inactive.html:8
@@ -482,7 +186,7 @@ msgstr ""
 "هذا الرابط لتأكيد البريد الإلكتروني إنتهت فترة صلاحيته أو إنه غير صالح. يرجى "
 "<a href=\"%(email_url)s\"> إصدار البريد الإلكتروني طلب تأكيد الجديدة </a>."
 
-#: templates/account/login.html:6 templates/account/login.html.py:10
+#: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
 msgid "Sign In"
 msgstr "تسجيل الدخول"
@@ -516,7 +220,7 @@ msgstr ""
 msgid "Forgot Password?"
 msgstr "هل نسيت كلمة المرور؟"
 
-#: templates/account/logout.html:5 templates/account/logout.html.py:8
+#: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
 msgid "Sign Out"
 msgstr "تسجيل الخروج"
@@ -644,7 +348,7 @@ msgstr "تعيين كلمة مرور"
 msgid "Signup"
 msgstr "الاشتراك"
 
-#: templates/account/signup.html:8 templates/account/signup.html.py:18
+#: templates/account/signup.html:8 templates/account/signup.html:18
 #: templates/socialaccount/signup.html:8 templates/socialaccount/signup.html:19
 msgid "Sign Up"
 msgstr "الاشتراك"
@@ -789,6 +493,140 @@ msgid ""
 msgstr ""
 "أنت على وشك استخدام حسابك من %(provider_name)s لتسجيل الدخول إلى "
 "%(site_name)s. وكخطوة أخيرة، يرجى ملء النموذج التالي:"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "يمكن أن تحتوي أسماء المستخدمين إلا على الحروف، الأرقام و @/‪.‬/-/+/_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr "اسم المستخدم غير مسموح به. الرجاء اختيار اسم اخر‪.‬"
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "كلمة المرور يجب أن لا تقل عن {0} حروف."
+
+#~ msgid "Accounts"
+#~ msgstr "الحسابات"
+
+#~ msgid "Password"
+#~ msgstr "كلمة السر"
+
+#~ msgid "Remember Me"
+#~ msgstr "ذكرني"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "هذا الحساب غير نشط حاليا."
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "عنوان البريد الإلكتروني و / أو كلمة المرور الذي حددته غير صحيحة."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "اسم المستخدم و / أو كلمة المرور الذي حددته غير صحيحة."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "تسجيل الدخول و / أو كلمة المرور الذي حددته غير صحيحة."
+
+#~ msgid "E-mail address"
+#~ msgstr "عنوان البريد الالكتروني"
+
+#~ msgid "E-mail"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Username"
+#~ msgstr "اسم المستخدم"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "اسم المستخدم أو البريج الالكتروني"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "البريد الالكتروني ‪)‬اختياري‪(‬"
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "هنالك مستخدم مسجل سابقا مع نفس عنوان البريد الاكتروني‪.‬"
+
+#~ msgid "Password (again)"
+#~ msgstr "كلمة السر ‪)‬مرة أخرى‪(‬"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "يجب عليك كتابة نفس كلمة المرور في كل مرة‪.‬"
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "عنوان البريد الإلكتروني هذا بالفعل المقترنة مع هذا الحساب."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "عنوان البريد الإلكتروني هذا مقترن بالفعل بحساب آخر."
+
+#~ msgid "Current Password"
+#~ msgstr "كلمة المرور الحالية"
+
+#~ msgid "New Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#~ msgid "New Password (again)"
+#~ msgstr "كلمة المرور الجديدة (مرة أخرى)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "الرجاء كتابة كلمة المرور الحالية الخاصة بك."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "لم يتم تعيين عنوان البريد الإلكتروني لأي حساب مستخدم"
+
+#~ msgid "user"
+#~ msgstr "مستخدم"
+
+#~ msgid "e-mail address"
+#~ msgstr "عنوان بريد إلكتروني"
+
+#~ msgid "verified"
+#~ msgstr "تمّ تحقيقه"
+
+#~ msgid "primary"
+#~ msgstr "أوّلي"
+
+#~ msgid "email address"
+#~ msgstr "عنوان بريد الكتروني"
+
+#~ msgid "email addresses"
+#~ msgstr "عناوين البريد الالكتروني"
+
+#~ msgid "created"
+#~ msgstr "تمّ إنشاؤه"
+
+#~ msgid "sent"
+#~ msgstr "مبعوث"
+
+#~ msgid "key"
+#~ msgstr "مفتاح"
+
+#~ msgid "email confirmation"
+#~ msgstr "تأكيد البريد الإلكتروني"
+
+#~ msgid "email confirmations"
+#~ msgstr "تأكيدات البريد الإلكتروني"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "حسابك ليس لديه كلمة مرور اقامة."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "حسابك ليس لديه عنوان البريد الإلكتروني تحققنا منها."
+
+#~ msgid "Social Accounts"
+#~ msgstr "الحسابات الاجتماعية"
+
+#~ msgid ""
+#~ "An account already exists with this e-mail address. Please sign in to "
+#~ "that account first, then connect your %s account."
+#~ msgstr ""
+#~ "حساب موجود بالفعل مع هذا عنوان البريد الإلكتروني. يرجى تسجيل الدخول إلى "
+#~ "هذا الحساب أولا، ثم ربط حساب %s الخاص بك."
+
+#~ msgid "provider"
+#~ msgstr "مزود"
+
+#~ msgid "name"
+#~ msgstr "اسم"
 
 #~ msgid "This username is already taken. Please choose another."
 #~ msgstr "اسم المستخدم مسجل مسبقا. الرجاء اختيار اسم اخر‪.‬"
